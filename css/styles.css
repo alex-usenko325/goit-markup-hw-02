@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: #FCFCFC;
+  background-color: #ffffff;
 }
 
 ul {
@@ -23,20 +23,16 @@ color: #434455;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4D5AE5;
   
 }
 
-.logo:hover {
-
- color: #4D5AE5 ;
-
+.header-logo-item {
+  color: #2e2f42;
 }
-
-.logo-blue {
-
-  color: #4d5ae5;
-
+.header-logo-item:hover,
+.header-logo-item:focus{
+  color: #4D5AE5;
 }
 
 .title {
@@ -51,10 +47,10 @@ color: #434455;
 
 .item-title {
 
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.20;
-    color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
   
 }
 
@@ -66,25 +62,25 @@ color: #434455;
 
 
 .heder-menu-list {
-
+ color: #2e2f42;
 }
 
 .heder-menu-items {
   font-weight: 500;
-  color: #2e2f42;
-
 }
 
 .heder-menu-link {
 
 }
 
-.heder-menu-link:hover {
+.heder-menu-link:hover,
+.heder-menu-link:focus 
+{
   color: #404BBF;
 }
 
 .heder-address {
-
+  font-style: normal;
 }
 
 .heder-address-list {
@@ -96,10 +92,11 @@ color: #434455;
 }
 
 .heder-address-link {
-  
+ 
 }
 
-.heder-address-link:hover {
+.heder-address-link:hover,
+.heder-address-link:focus {
   color: #404BBF; 
 }
 
@@ -115,6 +112,7 @@ color: #434455;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fff; 
 }
@@ -123,11 +121,13 @@ color: #434455;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  line-height: 1.5;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
 background-color: #404BBF;
 }
 
@@ -198,22 +198,45 @@ text-align: center;
 
 .portfolio {}
 
-.portfolio-titel {}
+.portfolio-titel {
+  
+}
 
-.portfolio-list {}
+.portfolio-list {
 
-.portfolio-list-item {}
+}
 
-.portfolio-list-title {}
+.portfolio-list-item {
 
-.portfolio-list-text {}
+}
+
+.portfolio-list-title {
+
+}
+
+.portfolio-list-text {
+
+}
 
 /*------------------------------*/
 
 /*---------------------section Our Portfolio-------------------*/
 
-.footer {}
+.footer {
+background-color: #2e2f42 ;
+}
+.footer-text {
+color: #f4f4fd;
 
-.footer-text {}
+}
+
+.footer-logo-item {
+  color: #f4f4fd ;
+}
+
+.footer-logo-item:hover,
+.footer-logo-item:focus{
+  color: #4D5AE5;
+}
 
 /*------------------------------*/
