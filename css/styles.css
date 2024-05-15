@@ -1,0 +1,219 @@
+body {
+  font-family:'Roboto', sans-serif;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: #FCFCFC;
+}
+
+ul {
+list-style-type: none ;
+}
+
+a {
+text-decoration: none;
+color: #434455;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  
+}
+
+.logo:hover {
+
+ color: #4D5AE5 ;
+
+}
+
+.logo-blue {
+
+  color: #4d5ae5;
+
+}
+
+.title {
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: #2e2f42;
+  
+}
+
+.item-title {
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    color: #2e2f42;
+  
+}
+
+/*---------------------HEADER-------------------*/
+
+.header-navigation {
+
+}
+
+
+.heder-menu-list {
+
+}
+
+.heder-menu-items {
+  font-weight: 500;
+  color: #2e2f42;
+
+}
+
+.heder-menu-link {
+
+}
+
+.heder-menu-link:hover {
+  color: #404BBF;
+}
+
+.heder-address {
+
+}
+
+.heder-address-list {
+
+}
+
+.heder-address-items {
+
+}
+
+.heder-address-link {
+  
+}
+
+.heder-address-link:hover {
+  color: #404BBF; 
+}
+
+/*------------------------------*/
+
+/*---------------------HERO-------------------*/
+
+.hero {
+  background-color: #2e2f42 ;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #fff; 
+}
+
+.hero-button {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+}
+
+.hero-button:hover {
+background-color: #404BBF;
+}
+
+/*------------------------------*/
+
+/*---------------------section Feature-------------------*/
+
+.feature {
+
+}
+
+.feature-title {
+
+}
+
+.feature-list {
+
+}
+
+.feature-list-items {
+
+}
+
+.feature-list-title {
+
+}
+
+.feature-list-text {
+
+}
+
+/*------------------------------*/
+
+/*---------------------section Our Team-------------------*/
+
+.team {
+
+}
+
+.team-title {
+
+}
+
+.team-list {
+
+}
+
+.team-list-item {
+
+}
+
+.team-list-title {
+
+text-align: center;
+
+}
+
+
+.team-list-text {
+
+text-align: center;
+
+}
+
+/*------------------------------*/
+
+/*---------------------section Our Portfolio-------------------*/
+
+.portfolio {}
+
+.portfolio-titel {}
+
+.portfolio-list {}
+
+.portfolio-list-item {}
+
+.portfolio-list-title {}
+
+.portfolio-list-text {}
+
+/*------------------------------*/
+
+/*---------------------section Our Portfolio-------------------*/
+
+.footer {}
+
+.footer-text {}
+
+/*------------------------------*/
